@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='MAV-MR-FPV_OSU-2020'

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MAV MR FPV - OSU 2020</string>
+
+    <string name="pref_fpv_key"></string>
+    <string name="pref_fpv_mode"></string>
+    <!-- Screen Switch -->
+    <string name="pref_fpv_key" translatable="false">pref_fpv</string>
+    <string name="pref_fpv_title">FIRST PERSON VIEWS</string>
+    <string name="pref_fpv_entry_full">Full View (Portrait)</string>
+    <string name="pref_fpv_value_full" translatable="false">full_screen</string>
+    <string name="pref_fpv_entry_zoom">Zoomed View (Landscape)</string>
+    <string name="pref_fpv_value_zoom" translatable="false">zoom_screen</string>
+    <string name="pref_fpv_entry_mr">Mixed Reality View</string>
+    <string name="pref_fpv_value_mr" translatable="false">mr_screen</string>
+    <string name="pref_fpv_default">@string/pref_fpv_value_full</string>
+
+    <!-- String for port -->
+    <string name="pref_port_key" translatable="false">pref_port</string>
+    <string name="pref_port_title">PORT NUMBER</string>
+    <string name="pref_port_default">30000</string>
+
+    <!-- String for graphical user interface toggles -->
+    <string name="pref_gui_title">GUI TOGGLE</string>
+    <string name="pref_gui_compass_key" translatable="false">pref_gui_compass</string>
+    <string name="pref_gui_compass_title">Compass</string>
+    <string name="pref_gui_horizon_key" translatable="false">pref_gui_horizon</string>
+    <string name="pref_gui_horizon_title">Horizon Line</string>
+    <string name="pref_gui_attitude_key" translatable="false">pref_gui_attitude</string>
+    <string name="pref_gui_attitude_title">Attitude</string>
+    <string name="pref_gui_battery_key" translatable="false">pref_gui_battery</string>
+    <string name="pref_gui_battery_title">Battery Indicator</string>
+    <string name="pref_gui_debug_key" translatable="false">pref_gui_debug</string>
+    <string name="pref_gui_debug_title">Debug Information</string>
+    <string name="settings_button">Settings Button</string>
+
+    <string name="select">Select USB</string>
+    <string name="refresh">Refresh</string>
+    <string name="camera">Camera</string>
+    <string name="no_device">No USB Camera</string>
+</resources>

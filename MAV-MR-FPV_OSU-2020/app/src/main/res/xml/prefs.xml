@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_fpv_title">
+        <CheckBoxPreference
+            android:key="@string/pref_fpv_key"
+            android:title="@string/pref_fpv_value_full"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/pref_fpv_key"
+            android:title="@string/pref_fpv_value_zoom"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="@string/pref_fpv_key"
+            android:title="@string/pref_fpv_value_mr"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <ListPreference
+        android:key="@string/pref_fpv_key"
+        android:title="@string/pref_fpv_title"
+        android:summary="%s"
+        android:entries="@array/pref_fpv_entries"
+        android:entryValues="@array/pref_fpv_values"
+        android:defaultValue="@string/pref_fpv_default"/>
+
+    <PreferenceCategory
+        android:title="@string/pref_gui_title">
+        <CheckBoxPreference
+            android:key="@string/pref_gui_attitude_key"
+            android:title="@string/pref_gui_attitude_title"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/pref_gui_battery_key"
+            android:title="@string/pref_gui_battery_title"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/pref_gui_compass_key"
+            android:title="@string/pref_gui_compass_title"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/pref_gui_horizon_key"
+            android:title="@string/pref_gui_horizon_title"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:key="@string/pref_gui_debug_key"
+            android:title="@string/pref_gui_debug_title"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <EditTextPreference
+        android:key="@string/pref_port_key"
+        android:title="@string/pref_port_title"
+        android:defaultValue="@string/pref_port_default"/>
+
+</PreferenceScreen>
